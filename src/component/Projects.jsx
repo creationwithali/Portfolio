@@ -7,16 +7,16 @@ const projects = [
     description:
       "A modern SEO-optimized landing page built with React & Tailwind.",
     img: "/seo.jpg", // ❌ /public likhne ki zarurat nahi
-    live: "https://your-live-link.com",
+    live: "https://",
     github: "",
   },
   {
     id: 2,
-    title: "E-commerce",
+    title: "Prime Partner Studio",
     description:
       "A modern project showcasing web development and SEO skills.",
     img: "/e.jpg",
-    live: "https://your-live-link.com",
+    live: "https://primepartnerstudio.site/",
     github: "",
   },
   {
@@ -34,7 +34,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-gradient-to-r from-[#0F172A] to-[#1E293B] text-white py-20 px-6 md:px-20"
+      className="text-white py-20 px-6 md:px-20"
     >
       <h2 className="text-4xl font-bold text-center mb-12">
         <span className="text-[#38BDF8]">My</span>{" "}

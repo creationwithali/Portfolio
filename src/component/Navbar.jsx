@@ -5,7 +5,7 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-r from-[#090d18] to-[#111720] h-16 w-full fixed top-0 z-50 flex items-center justify-between px-6 md:px-10">
+    <nav className="bg-black/70 backdrop-blur-md h-16 w-full fixed top-0 z-50 flex items-center justify-between px-6 md:px-10">
       {/* Logo */}
       <h1 className="text-2xl font-bold text-[#38BDF8]">
         Creation<span className="text-white">with</span>

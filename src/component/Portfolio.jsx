@@ -32,7 +32,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <section id="portfolio" className="bg-linear-to-r from-[#0F172A] to-[#1E293B] text-white py-20 px-6 md:px-20">
+    <section id="portfolio" className="text-white py-20 px-6 md:px-20">
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">
           <span className="text-[#38BDF8]">My</span> 

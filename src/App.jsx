@@ -7,19 +7,23 @@ import Portfolio from './component/Portfolio'
 import Projects from './component/Projects'
 import CustomerReviews from './component/CustomerReviews'
 import Footer from './component/Footer'
+import CodeBackground from './component/CodeBackground'
 
 
 const App = () => {
   return (
-    <div>
-    <Navbar/>
-    <Home/>
-    <About/>
-    <Skills/>
-    <Portfolio/>
-    <Projects/>
-    <CustomerReviews/>
-    <Footer/>    
+    <div className="relative min-h-screen">
+      <CodeBackground />
+      <div className="relative z-10">
+        <Navbar />
+        <Home />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Projects />
+        <CustomerReviews />
+        <Footer />
+      </div>
     </div>
   )
 }

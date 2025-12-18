@@ -32,7 +32,7 @@ const CustomerReviews = () => {
   return (
     <section
       id="reviews"
-      className="bg-linear-to-r from-[#0F172A] to-[#1E293B] text-white py-20 px-6 md:px-20"
+      className="text-white py-20 px-6 md:px-20"
     >
       <h2 className="text-4xl font-bold text-center mb-12">
         <span className="text-[#38BDF8]">Customer</span>{" "}

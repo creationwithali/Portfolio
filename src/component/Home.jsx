@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="bg-gradient-to-r mt-3 from-[#0F172A] to-[#1E293B] text-white min-h-screen flex items-center justify-center px-6 md:px-20 relative overflow-hidden"
+      className="mt-16 text-white min-h-screen flex items-center justify-center px-6 md:px-20 relative overflow-hidden"
     >
       <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl gap-10">
         
@@ -15,15 +15,15 @@ const Home = () => {
             Hi, I'm <span className="text-[#34D399]">Ali</span>
           </h1>
           <h2 className="text-2xl md:text-3xl font-semibold">
-            Web Developer & SEO Specialist
+            Web Developer & App Developer
           </h2>
           <p className="text-gray-300 leading-relaxed max-w-md mx-auto md:mx-0">
-            I design and develop professional, modern, and responsive websites optimized
-            for performance and SEO.
+            I design and develop professional, modern, and responsive websites and mobile applications
+            for performance and great user experience.
           </p>
-          <button className="mt-6 px-6 py-3 bg-[#38BDF8] text-[#0F172A] font-semibold rounded-xl hover:bg-[#34D399] transition-all">
+          <a href="#projects" className="inline-block mt-6 px-6 py-3 bg-[#38BDF8] text-[#0F172A] font-semibold rounded-xl hover:bg-[#34D399] transition-all">
             View My Work
-          </button>
+          </a>
         </div>
 
         {/* ===== Right Side (Image + Social Icons) ===== */}
