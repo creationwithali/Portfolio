@@ -6,6 +6,7 @@ import Skills from './component/Skills'
 import Portfolio from './component/Portfolio'
 import Projects from './component/Projects'
 import CustomerReviews from './component/CustomerReviews'
+import ResumeDownload from './component/ResumeDownload'
 import Footer from './component/Footer'
 import CodeBackground from './component/CodeBackground'
 
@@ -22,6 +23,7 @@ const App = () => {
         <Portfolio />
         <Projects />
         <CustomerReviews />
+        <ResumeDownload />
         <Footer />
       </div>
     </div>
