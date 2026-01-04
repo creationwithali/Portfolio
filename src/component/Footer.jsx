@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebookF, FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaFacebookF, FaXTwitter, FaGithub, FaWhatsapp } from "react-icons/fa6";
 
 const Footer = () => {
   const [formData, setFormData] = useState({
@@ -88,8 +88,9 @@ const Footer = () => {
         <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-[#34D399]">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="hover:text-[#34D399]">
-          <FaLinkedin />
+
+        <a href="https://wa.me/923064944326" target="_blank" rel="noreferrer" className="hover:text-[#34D399]">
+          <FaWhatsapp />
         </a>
       </div>
 
